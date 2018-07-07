@@ -2,10 +2,10 @@
 
 define('DEBUG', true);
 
-define('DB_NAME', 'mymvc'); // database name
-define('DB_USER', 'root');  // database user
+define('DB_NAME', ''); // database name
+define('DB_USER', '');  // database user
 define('DB_PASSWORD', ''); // database password
-define('DB_HOST', '127.0.0.1');  // database host *** use IP address to avoid DNS lookup
+define('DB_HOST', '');  // database host *** use IP address to avoid DNS lookup
 
 define('DEFAULT_CONTROLLER', 'Home'); // default controller if there isn`t one defined
 define('DEFAULT_LAYOUT', 'default'); // if no layout is set in tehe controller use this layout
